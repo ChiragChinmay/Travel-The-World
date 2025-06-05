@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign-In | Travel the World</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #74ebd5, #acb6e5); /* travel-themed gradient */
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .signin-container {
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      width: 320px;
+      text-align: center;
+    }
+
+    #head-box {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      text-align: left;
+      font-weight: 600;
+      color: #34495e;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    #sign-in-box {
+      width: 100%;
+      padding: 12px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #sign-in-box:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="signin-container">
+    <div id="head-box">Sign in, please!</div>
+
+    <label for="box-email">Email</label>
+    <input type="text" placeholder="abcd@gmail.com" id="box-email"/>
+
+    <label for="otp-input">OTP</label>
+    <input type="number" placeholder="123456" id="otp-input" min="0">
+
+    <button id="sign-in-box">Sign In</button>
+  </div>
+
+</body>
+</html>

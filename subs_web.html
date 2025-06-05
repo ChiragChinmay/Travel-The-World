@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscriptions - Travel The World</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 36px;
+            color: #333;
+        }
+
+        .subscriptions {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .plan-box {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 25px;
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .plan-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .plan-title {
+            font-size: 24px;
+            color: #ff4b5c;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .plan-price {
+            font-size: 18px;
+            color: #555;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .features {
+            list-style-type: disc;
+            padding-left: 20px;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .features li {
+            margin-bottom: 10px;
+        }
+
+        .pay-button {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background-color: #ff4b5c;
+            color: white;
+            padding: 12px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .pay-button:hover {
+            background-color: #e03b4a;
+        }
+        .Offer-box {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 25px;
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Choose Your Subscription Plan</h1>
+
+    <div class="subscriptions">
+
+        <!-- Monthly Plan -->
+        <div class="plan-box">
+            <div>
+                <div class="plan-title">Monthly Plan</div>
+                <div class="plan-price">₹499/month</div>
+                <ul class="features">
+                    <li>Access to 5 tours</li>
+                    <li>Basic customer support</li>
+                    <li>Cancel anytime</li>
+                    <li>Meals included</li>
+                    <li>Tourist guide </li>
+
+                </ul>
+            </div>
+            <a href="#" class="pay-button">Pay Now</a>
+        </div>
+
+        <!-- Quarterly Plan -->
+        <div class="plan-box">
+            <div>
+                <div class="plan-title">Quarterly Plan</div>
+                <div class="plan-price">₹1299/3 months</div>
+                <ul class="features">
+                    <li>Access to 15 tours</li>
+                    <li>Priority support</li>
+                    <li>Exclusive discounts</li>
+                    <li>₹499/month features included</li>
+                    <li>Hotel facilities included</li>
+                </ul>
+            </div>
+            <a href="#" class="pay-button">Pay Now</a>
+        </div>
+
+        <!-- Yearly Plan -->
+        <div class="plan-box">
+            <div>
+                <div class="plan-title">Yearly Plan</div>
+                <div class="plan-price">₹4499/year</div>
+                <ul class="features">
+                    <li>Unlimited tour access</li>
+                    <li>24/7 support</li>
+                    <li>Free travel kit</li>
+                    <li>Early-bird booking benefits</li>
+                    <li>₹1299/3months features included</li>
+                </ul>
+            </div>
+            <a href="#" class="pay-button">Pay Now</a>
+        </div>
+
+
+</body>
+
+</html>
