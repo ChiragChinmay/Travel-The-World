@@ -2,7 +2,7 @@
 
 Welcome to **Travel The World**, a simple and responsive travel website built using **HTML** and **CSS**. This project showcases beautiful destinations across India, including booking options and tour highlights.
 
-> 🔗 **Live Website**: [Click to Visit](https://chiragchinmay.github.io/travel-form./)
+> 🔗 **Live Website**: [Click to Visit]([(https://chiragchinmay.github.io/Travel-The-World/))
 
 ---
 
